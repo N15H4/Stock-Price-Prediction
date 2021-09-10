@@ -1,3 +1,5 @@
+dataset = pd.read_csv('Google_Stock_Price_Train.csv', index_col="Date",parse_dates=True)
+
 # Importing the libraries
 # Stage 1(Raw Data)
 
